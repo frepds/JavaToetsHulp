@@ -1,16 +1,19 @@
 package ToetsHulp.Theorie.Juni8.Antwoorden.Opgave2;
 
-public abstract class Figuur implements Rotatie
-{
+public abstract class Figuur implements Rotatie {
 
-	protected int kleur;
+    protected int kleur;
 
-	public Figuur( int kleur ) { this.kleur = kleur; }
+    public Figuur(int kleur) {
+        this.kleur = kleur;
+    }
 
-	public void setKleur( int kleur ) { this.kleur = kleur; }
+    public void setKleur(int kleur) {
+        this.kleur = kleur;
+    }
 
 
-	public abstract double oppervlakte();
+    public abstract double oppervlakte();
 }
 
 

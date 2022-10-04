@@ -5,7 +5,6 @@ import java.awt.*;
 public class Main {
 
 
-
 //======================== code om Data (opgave 1) te testen ========================
 
 /*
@@ -20,8 +19,6 @@ public class Main {
 */
 
 
-
-
 //======================== code om Groep (opgave 1) te testen ========================
 
 /*
@@ -33,8 +30,6 @@ public class Main {
 		System.out.println( g.getContactgegevens() ); //  Jan (Javaweg 1)
 	}
 */
-
-
 
 
 //======================== code om Kroeg (opgave 2) te testen ========================

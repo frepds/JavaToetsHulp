@@ -3,7 +3,6 @@ package ToetsHulp.Theorie.Juni8.StartSituatie;
 public class Main {
 
 
-
 //======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route (opgave 1) te testen ========================
 
 /*
@@ -60,8 +59,6 @@ public class Main {
 */
 
 
-
-
 //======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave2.Rechthoek (opgave 2) te testen ========================
 
 /*
@@ -87,8 +84,6 @@ public class Main {
 		System.out.println( re1.equals( re5 ) );    //  true
 	}
 */
-
-
 
 
 //======================== code om Figuur (opgave 2) te testen ========================
@@ -125,8 +120,6 @@ public class Main {
 */
 
 
-
-
 //======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage (opgave 3) te testen ========================
 
 /*
@@ -142,8 +135,6 @@ public class Main {
 		System.out.println( f16 );               //  F-16
 	}
 */
-
-
 
 
 //======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave4.Vliegveld (opgave 4) te testen ========================

@@ -17,7 +17,6 @@ public class Main {
 */
 
 
-
 //============================= code om Student te testen =============================
 
 /*
@@ -31,7 +30,6 @@ public class Main {
 		System.out.println( st );                  //  Adam (s0012) 	95 	:-D
 	}
 */
-
 
 
 //============================= code om Klas te testen =============================
@@ -111,26 +109,25 @@ public class Main {
 */
 
 
-
 //=====================================================================
 
-	// code voor opgave 5
-	//
-	// Plaats deze code in de klasse waar je 'm wilt gebruiken.
-	//
-	// aanroep: drawStringRotated(g2d, "hoi", 100, 200, 45);
-	// resultaat: tekent "hoi" op plek x=100, y=200 met een hoek van 45 graden.
-	//
-	// Inhoud van deze methode direct weer vergeten, alleen gebruiken :-)
-	//
-	// Gebaseerd op: stackoverflow.com/a/26705815
-	//
-	public  void drawStringRotated( Graphics g, String txt, double x, double y, int angle ) {
-		Graphics2D g2d = (Graphics2D) g;
-		g2d.translate( (float) x, (float) y );
-		g2d.rotate( Math.toRadians( angle ) );
-		g2d.drawString( txt, 0, 0 );
-		g2d.rotate( -Math.toRadians( angle ) );
-		g2d.translate( -(float) x, -(float) y );
-	}
+    // code voor opgave 5
+    //
+    // Plaats deze code in de klasse waar je 'm wilt gebruiken.
+    //
+    // aanroep: drawStringRotated(g2d, "hoi", 100, 200, 45);
+    // resultaat: tekent "hoi" op plek x=100, y=200 met een hoek van 45 graden.
+    //
+    // Inhoud van deze methode direct weer vergeten, alleen gebruiken :-)
+    //
+    // Gebaseerd op: stackoverflow.com/a/26705815
+    //
+    public void drawStringRotated(Graphics g, String txt, double x, double y, int angle) {
+        Graphics2D g2d = (Graphics2D) g;
+        g2d.translate((float) x, (float) y);
+        g2d.rotate(Math.toRadians(angle));
+        g2d.drawString(txt, 0, 0);
+        g2d.rotate(-Math.toRadians(angle));
+        g2d.translate(-(float) x, -(float) y);
+    }
 }

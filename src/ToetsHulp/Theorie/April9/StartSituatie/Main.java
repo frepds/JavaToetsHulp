@@ -48,7 +48,6 @@ public class Main {
 */
 
 
-
 //============================= code om ToetsHulp.Theorie.April9.Antwoorden.Opgave2.ToetsHulp.Theorie.April9.StartSituatie.Opgave2.PicPoc te testen =============================
 
 /*
@@ -72,7 +71,6 @@ public class Main {
 		account1.toon();                                 //  ToetsHulp.Theorie.April9.Antwoorden.Opgave2.ToetsHulp.Theorie.April9.StartSituatie.Opgave2.Plaatje: 1, 2
 	}
 */
-
 
 
 //============================= code om ToetsHulp.Theorie.April9.Antwoorden.Opgave3.ToetsHulp.Theorie.April9.StartSituatie.Opgave3.Verkiezingen te testen =============================
@@ -112,7 +110,6 @@ public class Main {
 		System.out.println( v.getWinnaar() );   //  1
 	}
 */
-
 
 
 //============================= code om ToetsHulp.Theorie.April9.Antwoorden.Opgave4.ToetsHulp.Theorie.April9.StartSituatie.Opgave4.Bankbiljet te testen =============================

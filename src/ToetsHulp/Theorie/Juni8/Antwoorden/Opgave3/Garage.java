@@ -1,25 +1,27 @@
 package ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3;
 
-public class Garage
-{
-	
-	private Vliegtuig vliegtuig;
+public class Garage {
 
-	public void zetInGarage( Vliegtuig v ) { vliegtuig = v; }
+    private Vliegtuig vliegtuig;
 
-	// fout vb. uit de toets:
-	public void upgrade___FOUT___( String upgradeNaam ) {
-		// de nieuwe naam voor het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig
-		upgradeNaam = vliegtuig.getNaam() + upgradeNaam;
+    public void zetInGarage(Vliegtuig v) {
+        vliegtuig = v;
+    }
 
-		// upgrade het vliegtuig
-		Vliegtuig upgrade = new Vliegtuig( upgradeNaam );
+    // fout vb. uit de toets:
+    public void upgrade___FOUT___(String upgradeNaam) {
+        // de nieuwe naam voor het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig
+        upgradeNaam = vliegtuig.getNaam() + upgradeNaam;
 
-		// en update de ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage
-		zetInGarage( upgrade );
-	}
+        // upgrade het vliegtuig
+        Vliegtuig upgrade = new Vliegtuig(upgradeNaam);
 
-	// goede code:
+        // en update de ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage
+        zetInGarage(upgrade);
+
+    }
+
+    // goede code:
     public void upgrade(String upgradeNaam) {
         // de nieuwe naam voor het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig
         upgradeNaam = vliegtuig.getNaam() + upgradeNaam;
@@ -32,18 +34,18 @@ public class Garage
         // ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage updaten is niet nodig. We hebben het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig attribuut van ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage aangepast, dus het staat al goede
         // maar het mag wel natuurlijk, ondanks dat het volkomen overbodig is:  zetInGarage(vliegtuig);
     }
-	
-	// voorbeeld uit de toets om de bug te demonstreren:
-    // deze code mag niet veranderd worden
-	public static void demo_upgrade() {
-		Garage garage = new Garage();
-		Vliegtuig f16 = new Vliegtuig( "F-16" );
-		garage.zetInGarage( f16 );
-		
-		garage.upgrade___FOUT___( ".upgrade" ); //bug
-		//garage.upgrade( ".upgrade" ); //geen bug
 
-		// Waarom is de naam van f16 niet veranderd in "F-16.upgrade" na upgrade(...) ?
-		System.out.println( f16 );
-	}
+    // voorbeeld uit de toets om de bug te demonstreren:
+    // deze code mag niet veranderd worden
+    public static void demo_upgrade() {
+        Garage garage = new Garage();
+        Vliegtuig f16 = new Vliegtuig("F-16");
+        garage.zetInGarage(f16);
+
+        garage.upgrade___FOUT___(".upgrade"); //bug
+        //garage.upgrade( ".upgrade" ); //geen bug
+
+        // Waarom is de naam van f16 niet veranderd in "F-16.upgrade" na upgrade(...) ?
+        System.out.println(f16);
+    }
 }
