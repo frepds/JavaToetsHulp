@@ -1,7 +1,7 @@
 package ToetsHulp.Theorie.Juni8.StartSituatie.Opgave3;
 // code voor opgave 3
 //
-// Aan klasse ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig mag niks veranderd worden
+// Aan klasse ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig mag niks veranderd worden
 
 public class Vliegtuig {
     private String naam;

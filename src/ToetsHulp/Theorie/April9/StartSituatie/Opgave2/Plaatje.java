@@ -11,6 +11,6 @@ public class Plaatje {
     }
 
     public void toon() {
-        System.out.println("ToetsHulp.Theorie.April9.Antwoorden.Opgave2.ToetsHulp.Theorie.April9.StartSituatie.Opgave2.Plaatje: " + pixel1 + ", " + pixel2);
+        System.out.println("ToetsHulp.Theorie.April9.Antwoorden.Opgave2.ToetsHulp.Theorie.April9.StartSituatie.Opgave2.ToetsHulp.NieuwePoging.April9.Opgave2.Plaatje: " + pixel1 + ", " + pixel2);
     }
 }
