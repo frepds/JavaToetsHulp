@@ -18,7 +18,7 @@ De reden hiervoor is dat je op 1 van die onderdelen wellicht zoveel fouten maakt
 terwijl je de rest van de vraag wel goed hebt. Door de indeling in onderwerpen, wordt de schade beperkt. 
 (Het alternatief is, om elk klein stukje een nieuwe vraag te laten zijn in de toets, maar dan krijg je vraag 1(a) t/m (z) ofzo)
 
-Een voorbeeldje: Vraag 1(c) over het loggen van de legale/illegale waardes bij van ToetsHulp.Theorie.April9.Antwoorden.Opgave1.ToetsHulp.Theorie.April9.StartSituatie.Opgave1.Beschermd. Deze is opgedeeld in 3 delen.
+Een voorbeeldje: Vraag 1(c) over het loggen van de legale/illegale waardes bij van ToetsHulp.Theorie.April9.Antwoorden.Opgave1.ToetsHulp.Theorie.April9.StartSituatie.Opgave1.ToetsHulp.NieuwePoging.April9.Opgave1.Beschermd. Deze is opgedeeld in 3 delen.
 3 punten voor het hebben van de statische printLogging functie, ook al print ie onzin (dat onderdeel heet dan "PRINT")
 4 punten voor het hebben van 1 of meer statische attributen ("TELLER") omdat dat de basis is die je sowieso nodig hebt, als je wilt gaan tellen.
 8 punten voor de correcte werking ("WERKING")

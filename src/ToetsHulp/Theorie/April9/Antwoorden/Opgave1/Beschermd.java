@@ -18,7 +18,7 @@ public class Beschermd {
 
 
     public String toString() {
-        return "ToetsHulp.Theorie.April9.Antwoorden.Opgave1.ToetsHulp.Theorie.April9.StartSituatie.Opgave1.Beschermd: getal = " + getal;
+        return "ToetsHulp.Theorie.April9.Antwoorden.Opgave1.ToetsHulp.Theorie.April9.StartSituatie.Opgave1.ToetsHulp.NieuwePoging.April9.Opgave1.Beschermd: getal = " + getal;
     }
 
 

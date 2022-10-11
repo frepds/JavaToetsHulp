@@ -3,17 +3,17 @@ package ToetsHulp.Theorie.Juni8.StartSituatie;
 public class Main {
 
 
-//======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route (opgave 1) te testen ========================
+//======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route (opgave 1) te testen ========================
 
 /*
 	//---------------------- code om opgave 1(a) te testen --------------------
 	//
 	public static void main(String[] args) {
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w1 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 11 );
-		System.out.println( w1 );            //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route van 11 km, start: ???
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w1 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 11 );
+		System.out.println( w1 );            //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route van 11 km, start: ???
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w2 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 7, "Zwolle" );
-		System.out.println( w2 );            //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route van 7 km, start: Zwolle
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w2 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 7, "Zwolle" );
+		System.out.println( w2 );            //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route van 7 km, start: Zwolle
 	}
 */
 
@@ -22,20 +22,20 @@ public class Main {
 	//---------------------- code om opgave 1(b) te testen --------------------
 	//
 	public static void main(String[] args) {
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 12 );
-		System.out.println( w );             //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route van 12 km, start: ???
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 12 );
+		System.out.println( w );             //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route van 12 km, start: ???
 		
 		w.setStart( "Assen" );
-		System.out.println( w );             //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route van 12 km, start: Assen
+		System.out.println( w );             //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route van 12 km, start: Assen
 		
 		w.setStart( "Wapenveld" );           //  mag niet
-		System.out.println( w );             //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route van 12 km, start: Assen
+		System.out.println( w );             //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route van 12 km, start: Assen
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w2 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 8, "Zwolle" );
-		System.out.println( w2 );            //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route van 8 km, start: Zwolle
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w2 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 8, "Zwolle" );
+		System.out.println( w2 );            //  ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route van 8 km, start: Zwolle
 		w2.setStart( "Eindhoven" );          //  mag niet
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w3 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 1 );           //  te kort
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w3 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 1 );           //  te kort
 	}
 */
 
@@ -44,15 +44,15 @@ public class Main {
 	//---------------------- code om opgave 1(d) te testen --------------------
 	//
 	public static void main(String[] args) {
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w1 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 9 );
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w2 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 5 );
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w3 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 7 );
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route.printMinMax();
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w1 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 9 );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w2 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 5 );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w3 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 7 );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route.printMinMax();
 		                            // kortste afstand is 5 km
 		                            // langste afstand is 9 km
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w4 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 12 );
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route w5 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route( 4 );
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.Route.printMinMax();
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w4 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 12 );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route w5 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route( 4 );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route.printMinMax();
 		                            // kortste afstand is 4 km
 		                            // langste afstand is 12 km
 	}
@@ -120,14 +120,14 @@ public class Main {
 */
 
 
-//======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage (opgave 3) te testen ========================
+//======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage (opgave 3) te testen ========================
 
 /*
 	//---------------------- code om opgave 3 te testen --------------------
 	//
 	public static void main(String[] args) {
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage garage = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.Garage();
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "F-16" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage garage = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage();
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "F-16" );
 		garage.zetInGarage( f16 );
 		garage.upgrade( ".upgrade" );
 		
@@ -145,10 +145,10 @@ public class Main {
 	public static void main(String[] args) {
 		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave4.Vliegveld veld = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave4.Vliegveld( 3 );
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "F-16" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "F-16" );
 		veld.zetBinnen( f16, 2 );
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig boeing = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "Boeing 747" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig boeing = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "Boeing 747" );
 		veld.zetBinnen( boeing, 2 );                      //  hangar 2 is al bezet
 		veld.zetBinnen( boeing, 3210 );                   //  hangar 3210 bestaat niet!
 		veld.zetBinnen( boeing, 1 );
@@ -168,10 +168,10 @@ public class Main {
 	public static void main(String[] args) {
 		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave4.Vliegveld veld = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave4.Vliegveld( 3 );
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig boeing = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "Boeing 747" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig boeing = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "Boeing 747" );
 		veld.zetBinnen( boeing, 2 );
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "F-16" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "F-16" );
 		veld.zetBinnen( f16, 1 );
 		
 		veld.print();
@@ -180,7 +180,7 @@ public class Main {
 		                                                  // * plek 1: F-16
 		                                                  // * plek 2: Boeing 747
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig x = veld.haalEruit( 2 );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig x = veld.haalEruit( 2 );
 		System.out.println( x );                          //  Boeing 747
 		
 		veld.print();
@@ -189,7 +189,7 @@ public class Main {
 		                                                  // * plek 1: F-16
 		                                                  // * plek 2: ---
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig y = veld.haalEruit( 0 );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig y = veld.haalEruit( 0 );
 		System.out.println( y );                          //  null
 	}
 */
@@ -201,13 +201,13 @@ public class Main {
 	public static void main(String[] args) {
 		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave4.Vliegveld veld = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave4.Vliegveld( 5 );
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig dc10 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "DC-10" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig dc10 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "DC-10" );
 		veld.zetBinnen( dc10, 4 );
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "F-16" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "F-16" );
 		veld.zetBinnen( f16, 0 );
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig boeing = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "Boeing 747" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig boeing = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "Boeing 747" );
 		veld.zetBinnen( boeing, 1 );
 		
 		veld.print();
@@ -218,7 +218,7 @@ public class Main {
 		                                                  // * plek 3: ---
 		                                                  // * plek 4: DC-10
 		
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig concorde = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.Vliegtuig( "Concorde" );
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig concorde = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig( "Concorde" );
 		int vrij = veld.zetOpEersteVrijePlek( concorde );
 		System.out.println( vrij );                       //  2
 		
