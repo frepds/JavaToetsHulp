@@ -16,6 +16,7 @@ public class Beschermd {
         setGetal(getal);
     }
 
+
     public String toString() {
         return "ToetsHulp.Theorie.April9.Antwoorden.Opgave1.ToetsHulp.Theorie.April9.StartSituatie.Opgave1.Beschermd: getal = " + getal;
     }
