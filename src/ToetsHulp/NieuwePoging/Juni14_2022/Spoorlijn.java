@@ -1,6 +1,5 @@
-package ToetsHulp.Theorie.Juni14_2022.StartSituatie;// code voor opgave 2
+package ToetsHulp.NieuwePoging.Juni14_2022;// code voor opgave 2
 //
-
 import java.util.ArrayList;
 
 public class Spoorlijn {

@@ -1,6 +1,10 @@
-package ToetsHulp.Theorie.Juni14_2022.StartSituatie;// code voor opgave 3
+package ToetsHulp.NieuwePoging.Juni14_2022;// code voor opgave 3
 //
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Geheimschrift {
 	/*

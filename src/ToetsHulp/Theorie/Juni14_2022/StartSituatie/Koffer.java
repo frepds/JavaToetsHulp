@@ -1,6 +1,5 @@
 package ToetsHulp.Theorie.Juni14_2022.StartSituatie;// code voor opgave 1
 //
-import java.util.ArrayList;
 
 public class Koffer {
 	/*

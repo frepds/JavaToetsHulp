@@ -1,4 +1,4 @@
-package ToetsHulp.NieuwePoging.Opgave2;
+package ToetsHulp.NieuwePoging.Juni8_2022.Opgave1.Opgave2;
 
 // code voor opgave 2
 

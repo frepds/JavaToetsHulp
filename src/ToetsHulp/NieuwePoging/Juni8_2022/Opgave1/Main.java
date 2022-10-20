@@ -1,9 +1,4 @@
-package ToetsHulp.NieuwePoging;
-
-import ToetsHulp.NieuwePoging.Opgave1.Doos;
-import ToetsHulp.NieuwePoging.Opgave1.Verhuiswagen;
-import ToetsHulp.NieuwePoging.Opgave3.Meting;
-import ToetsHulp.Theorie.April8_2022.Antwoorden.Antwoorden.ZomaarEenKlasse;
+package ToetsHulp.NieuwePoging.Juni8_2022.Opgave1;
 
 
 public class Main {
@@ -130,35 +125,35 @@ public class Main {
 
 	//---------------------- code om opgave 3(a) te testen --------------------
 	//
-	public static void main(String[] args) {
-		 // 10 graden Celsius in Zwolle (= 10 + 273 = 283 Kelvin)
-		 // Hiermee worden alle andere Meting-objecten vergeleken
-		Meting c10 = new Meting(10, true, "Zwolle");
-		System.out.println( c10.waardeInKelvin() );             //>   283
-		
-		 // locatie en temperatuur gelijk:
-		Meting c10_nogEenKeer = new Meting(10, true, "Zwolle");
-		System.out.println( c10.equals(c10_nogEenKeer) );       //>   true
-		
-		 // locatie en temperatuur gelijk (want 10 Celsius is 283 Kelvin)
-		Meting k283 = new Meting(283, false, "Zwolle");
-		System.out.println( c10.equals(k283) );                 //>   true
-		
-		 // locatie ongelijk:
-		Meting c10_elders = new Meting(10, true, "Rotterdam");
-		System.out.println( c10.equals(c10_elders) );           //>   false
-		
-		 // temperatuur ongelijk, want 10 graden Celsius is 283 Kelvin
-		Meting k10 = new Meting(10, false, "Zwolle");
-		System.out.println( c10.equals(k10) );                  //>   false
-		
-		 // ongelijke temperatuur
-		Meting c273 = new Meting(273, true, "Zwolle");
-		System.out.println( c10.equals(c273) );                 //>   false
-		
-		 // geen Meting als input
-		System.out.println( c10.equals("10 graden Celsius") );  //>   false
-	}
+//	public static void main(String[] args) {
+//		 // 10 graden Celsius in Zwolle (= 10 + 273 = 283 Kelvin)
+//		 // Hiermee worden alle andere Meting-objecten vergeleken
+//		Meting c10 = new Meting(10, true, "Zwolle");
+//		System.out.println( c10.waardeInKelvin() );             //>   283
+//
+//		 // locatie en temperatuur gelijk:
+//		Meting c10_nogEenKeer = new Meting(10, true, "Zwolle");
+//		System.out.println( c10.equals(c10_nogEenKeer) );       //>   true
+//
+//		 // locatie en temperatuur gelijk (want 10 Celsius is 283 Kelvin)
+//		Meting k283 = new Meting(283, false, "Zwolle");
+//		System.out.println( c10.equals(k283) );                 //>   true
+//
+//		 // locatie ongelijk:
+//		Meting c10_elders = new Meting(10, true, "Rotterdam");
+//		System.out.println( c10.equals(c10_elders) );           //>   false
+//
+//		 // temperatuur ongelijk, want 10 graden Celsius is 283 Kelvin
+//		Meting k10 = new Meting(10, false, "Zwolle");
+//		System.out.println( c10.equals(k10) );                  //>   false
+//
+//		 // ongelijke temperatuur
+//		Meting c273 = new Meting(273, true, "Zwolle");
+//		System.out.println( c10.equals(c273) );                 //>   false
+//
+//		 // geen Meting als input
+//		System.out.println( c10.equals("10 graden Celsius") );  //>   false
+//	}
 
 
 
