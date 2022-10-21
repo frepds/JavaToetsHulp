@@ -1,4 +1,4 @@
-package ToetsHulp.NieuwePoging.Juni8_2022.Opgave1.Opgave3;// code voor opgave 3
+package ToetsHulp.NieuwePoging.Juni8_2022.Opgave3;// code voor opgave 3
 //
 
 public class Meting {

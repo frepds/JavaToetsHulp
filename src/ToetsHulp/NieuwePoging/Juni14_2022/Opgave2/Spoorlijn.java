@@ -1,5 +1,7 @@
-package ToetsHulp.NieuwePoging.Juni14_2022;// code voor opgave 2
-//
+package ToetsHulp.NieuwePoging.Juni14_2022.Opgave2;
+
+// code voor opgave 2
+
 import java.util.ArrayList;
 
 public class Spoorlijn {
@@ -29,4 +31,20 @@ public class Spoorlijn {
 		Station s = new Station(stations.size(), station);
 		stations.add(s);
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		Spoorlijn s = (Spoorlijn) obj;
+
+		if (!(s instanceof Spoorlijn)) {
+			return false;
+		}
+
+		if (s.naam != this.naam) {
+			return false;
+		}
+
+		return true;
+
+ 	}
 }

@@ -1,5 +1,8 @@
-package ToetsHulp.NieuwePoging.Juni14_2022;// code voor opgave 3
+package ToetsHulp.NieuwePoging.Juni14_2022.Opgave3;
+
+// code voor opgave 3
 //
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -7,26 +10,32 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Geheimschrift {
-	/*
+	String[] code;
+	public Geheimschrift(int lengte) {
+		code = new String[lengte];
+		maakGereed();
+	}
 
+	public void maakGereed() {
+		for (int i = 0; i < code.length; i++) {
+			code[i] = randomSymbool();
+		}
+	}
 
-
-		Uncomment de twee methodes!!
-
-
-
-
-	 */
-
-
-
-
-	public Geheimschrift(int lengte) { /*...todo...*/ }
-
-	public void maakGereed() { /*...todo...*/  }
+	public void print() {
+		for (String s : code) {
+			System.out.print(s);
+		}
+	}
 
 	public void verberg(int positie, int stap, String[] tekst) {
-		/*...todo...*/ 
+		if (tekst.length > code.length) {
+			System.out.println("fout: Array te klein");
+		} else {
+			for (int i = 0; i < code.length; i++) {
+
+			}
+		}
 	}
 
 	// nodig voor randomSymbool()-methode

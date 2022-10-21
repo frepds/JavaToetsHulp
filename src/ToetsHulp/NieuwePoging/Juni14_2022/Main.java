@@ -1,6 +1,8 @@
 package ToetsHulp.NieuwePoging.Juni14_2022;
 
 import ToetsHulp.NieuwePoging.Juni14_2022.Opgave1.Koffer;
+import ToetsHulp.NieuwePoging.Juni14_2022.Opgave2.Spoorlijn;
+import ToetsHulp.NieuwePoging.Juni14_2022.Opgave3.Geheimschrift;
 
 import java.util.ArrayList;
 
@@ -64,21 +66,21 @@ public class Main {
 
 	//---------------------- code om opgave 1(d) te testen --------------------
 	//
-	public static void main(String[] args) {
-		Koffer k1 = new Koffer(50, "telefoon");  //>>   nieuw: telefoon (50)
-		k1.setCode(7777);
-		
-		System.out.println(k1.getInhoud(3400));  //>>   ---lockdown---
-		System.out.println(k1.getInhoud(5600));  //>>   ---lockdown---
-		
-		 // goede code werkt ook niet meer
-		System.out.println(k1.getInhoud(7777));  //>>   ---lockdown---
-		k1.setCode(7777);                        //>>   mag niet
-		
-		Koffer k2 = new Koffer(33, "boek");      //>>   nieuw: boek (33)
-		k2.setCode(1234);
-		System.out.println(k2.getInhoud(1234));  //>>   33: boek
-	}
+//	public static void main(String[] args) {
+//		Koffer k1 = new Koffer(50, "telefoon");  //>>   nieuw: telefoon (50)
+//		k1.setCode(7777);
+//
+//		System.out.println(k1.getInhoud(3400));  //>>   ---lockdown---
+//		System.out.println(k1.getInhoud(5600));  //>>   ---lockdown---
+//
+//		 // goede code werkt ook niet meer
+//		System.out.println(k1.getInhoud(7777));  //>>   ---lockdown---
+//		k1.setCode(7777);                        //>>   mag niet
+//
+//		Koffer k2 = new Koffer(33, "boek");      //>>   nieuw: boek (33)
+//		k2.setCode(1234);
+//		System.out.println(k2.getInhoud(1234));  //>>   33: boek
+//	}
 
 
 
@@ -86,39 +88,39 @@ public class Main {
 
 //======================== code om Spoorlijn (opgave 2) te testen ========================
 
-/*
+
 	//---------------------- code om opgave 2(a) te testen --------------------
 	//
-	public static void main(String[] args) {
-		Spoorlijn een = new Spoorlijn("IC");
-		een.voegStationToe("Zwolle");
-		een.voegStationToe("Deventer");
-		
-		Spoorlijn twee = new Spoorlijn("Sprinter");
-		twee.voegStationToe("Zwolle");
-		twee.voegStationToe("Heino");
-		twee.voegStationToe("Raalte");
-		twee.voegStationToe("Wierden");
-		twee.voegStationToe("Deventer");
-		
-		 // begin- en eindpunt hetzelfde
-		System.out.println(een.equals(twee));  //>>   true
-		
-		Spoorlijn drie = new Spoorlijn("IC");
-		drie.voegStationToe("Deventer");
-		drie.voegStationToe("Zwolle");
-		
-		 // eindpunt van ene is beginpunt van de ander, en andersom.
-		System.out.println(een.equals(drie));  //>>   true
-		
-		Spoorlijn vier = new Spoorlijn("stoomtrein");
-		vier.voegStationToe("Zwolle");
-		vier.voegStationToe("Middle-of-Nowhere");
-		
-		 // ander begin- of eindpunt
-		System.out.println(een.equals(vier));  //>>   false
-	}
-*/
+//	public static void main(String[] args) {
+//		Spoorlijn een = new Spoorlijn("IC");
+//		een.voegStationToe("Zwolle");
+//		een.voegStationToe("Deventer");
+//
+//		Spoorlijn twee = new Spoorlijn("Sprinter");
+//		twee.voegStationToe("Zwolle");
+//		twee.voegStationToe("Heino");
+//		twee.voegStationToe("Raalte");
+//		twee.voegStationToe("Wierden");
+//		twee.voegStationToe("Deventer");
+//
+//		 // begin- en eindpunt hetzelfde
+//		System.out.println(een.equals(twee));  //>>   true
+//
+//		Spoorlijn drie = new Spoorlijn("IC");
+//		drie.voegStationToe("Deventer");
+//		drie.voegStationToe("Zwolle");
+//
+//		 // eindpunt van ene is beginpunt van de ander, en andersom.
+//		System.out.println(een.equals(drie));  //>>   true
+//
+//		Spoorlijn vier = new Spoorlijn("stoomtrein");
+//		vier.voegStationToe("Zwolle");
+//		vier.voegStationToe("Middle-of-Nowhere");
+//
+//		 // ander begin- of eindpunt
+//		System.out.println(een.equals(vier));  //>>   false
+//	}
+
 
 
 /*
@@ -158,14 +160,14 @@ public class Main {
 
 //======================== code om Geheimschrift (opgave 3) te testen ========================
 
-/*
+
 	//---------------------- code om opgave 3(b) te testen --------------------
 	//
 	public static void main(String[] args) {
 		Geheimschrift g = new Geheimschrift(6);
 		g.print();  //>>   *-,-..
 	}
-*/
+
 
 
 /*
