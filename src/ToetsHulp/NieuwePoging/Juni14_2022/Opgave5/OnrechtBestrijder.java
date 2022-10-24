@@ -1,12 +1,12 @@
 package ToetsHulp.NieuwePoging.Juni14_2022.Opgave5;
 
-public class OnrechtBestrijder extends Held implements HeeftAartsvijand {
-    public OnrechtBestrijder(String s, int y, int x) {
-        super(s, y);
+public class OnrechtBestrijder extends Held implements HeeftAartsvijand{
+    public OnrechtBestrijder(int x) {
+        super("Captain Napalm", 42);
     }
 
-    public OnrechtBestrijder(String s, int y) {
-        super(s, y);
+    public OnrechtBestrijder(String s) {
+        super("Captain Napalm", 42);
     }
 
     @Override

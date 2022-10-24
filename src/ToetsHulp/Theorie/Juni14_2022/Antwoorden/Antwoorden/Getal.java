@@ -24,7 +24,7 @@ public class Getal
 
     // optellen met Getal
 	public Getal plus(Getal getal) { 
-		return new Getal( waarde + getal.waarde); // de foute code paste hier de waarde van gatal aan en returnde getal.
+		return new Getal( waarde + getal.waarde); // de foute code paste hier de waarde van getal aan en returnde getal.
 	}
 
 

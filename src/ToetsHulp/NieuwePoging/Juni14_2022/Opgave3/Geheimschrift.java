@@ -1,16 +1,11 @@
 package ToetsHulp.NieuwePoging.Juni14_2022.Opgave3;
+import java.util.Random;
 
 // code voor opgave 3
-//
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class Geheimschrift {
 	String[] code;
+
 	public Geheimschrift(int lengte) {
 		code = new String[lengte];
 		maakGereed();
@@ -23,18 +18,14 @@ public class Geheimschrift {
 	}
 
 	public void print() {
-		for (String s : code) {
-			System.out.print(s);
+		for (String codes : code) {
+			System.out.print(codes);
 		}
 	}
 
 	public void verberg(int positie, int stap, String[] tekst) {
-		if (tekst.length > code.length) {
-			System.out.println("fout: Array te klein");
-		} else {
-			for (int i = 0; i < code.length; i++) {
-
-			}
+		for (int i = 0; i < tekst.length; i++) {
+			code[positie] += tekst[i * stap];
 		}
 	}
 

@@ -1,12 +1,12 @@
 package ToetsHulp.NieuwePoging.Juni14_2022.Opgave5;
 
-abstract class Held {
+public abstract class Held {
     public Held(String s, int y){
 
     }
 
     public boolean heeftXRayVision(int x) {
-        return true;
+        return false;
     }
 
     public String vermomming() {

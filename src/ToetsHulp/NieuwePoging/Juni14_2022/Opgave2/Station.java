@@ -1,7 +1,7 @@
 package ToetsHulp.NieuwePoging.Juni14_2022.Opgave2;
 
 // code voor opgave 2
-
+//
 public class Station {
 
 	private int id;
@@ -12,7 +12,5 @@ public class Station {
 		naam = n;
 	}
 
-	public String toString() {
-		return naam;
-	}
+	public String toString() { return naam; }
 }
