@@ -40,9 +40,9 @@ public class Route {
 
     public String toString() {
         if (this.afstand < grens) {
-            return "ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route: te kort";
+            return "ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.ToetsHulp.NieuwePoging.Juni8_2021.Opgave1.Route: te kort";
         }
-        return "ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.Route van " + this.afstand + " km, start: " + this.start;
+        return "ToetsHulp.Theorie.Juni8.Antwoorden.Opgave1.ToetsHulp.NieuwePoging.Juni8.Opgave1.ToetsHulp.NieuwePoging.Juni8_2021.Opgave1.Route van " + this.afstand + " km, start: " + this.start;
     }
 
     public void setStart(String plaats) {

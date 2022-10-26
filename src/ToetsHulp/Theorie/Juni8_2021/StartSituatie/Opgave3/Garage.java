@@ -10,10 +10,10 @@ public class Garage {
     }
 
     public void upgrade(String upgradeNaam) {
-        // de nieuwe naam voor het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig
+        // de nieuwe naam voor het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig
         upgradeNaam = vliegtuig.getNaam() + upgradeNaam;
 
-        // upgrade het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig
+        // upgrade het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig
         Vliegtuig upgrade = new Vliegtuig(upgradeNaam);
 
         // en update de ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage

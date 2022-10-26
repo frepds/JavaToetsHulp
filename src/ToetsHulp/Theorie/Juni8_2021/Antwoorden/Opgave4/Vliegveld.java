@@ -61,7 +61,7 @@ public class Vliegveld {
             return null;
         } else {
             Vliegtuig v = hangar[plek];
-            hangar[plek] = null; //want: ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.Vliegtuig wordt eruit gehaald
+            hangar[plek] = null; //want: ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig wordt eruit gehaald
             return v;
         }
     }
