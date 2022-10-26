@@ -1,3 +1,5 @@
+package ToetsHulp.NieuwePoging.Juni8_2021.Opgave3;
+
 import ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig;
 
 // code voor opgave 3
@@ -15,7 +17,7 @@ public class Garage
 		// upgrade het ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig
 		Vliegtuig upgrade = new Vliegtuig( upgradeNaam );
 
-		// en update de Garage
+		// en update de ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage
 		zetInGarage( upgrade );
 	}
 }

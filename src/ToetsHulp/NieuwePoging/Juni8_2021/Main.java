@@ -1,7 +1,7 @@
 package ToetsHulp.NieuwePoging.Juni8_2021;
 
 import ToetsHulp.NieuwePoging.Juni8_2021.Opgave1.Route;
-import ToetsHulp.NieuwePoging.Juni8_2021.Opgave2.Rechthoek;
+import ToetsHulp.NieuwePoging.Juni8_2021.Opgave2.*;
 import ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig;
 import ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegveld;
 
@@ -85,7 +85,7 @@ public class Main {
 
 //======================== code om Figuur (opgave 2) te testen ========================
 
-/*
+
 	//---------------------- code om opgave 2(b) te testen --------------------
 	//
 	public static void main(String[] args) {
@@ -114,16 +114,16 @@ public class Main {
 		figuur.setKleur( 808 );
 		System.out.println( figuur );               //  Cirkel: straal = 2.0, kleur = 808
 	}
-*/
 
 
-//======================== code om Garage (opgave 3) te testen ========================
+
+//======================== code om ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage (opgave 3) te testen ========================
 
 /*
 	//---------------------- code om opgave 3 te testen --------------------
 	//
 	public static void main(String[] args) {
-		Garage garage = new Garage();
+		ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage garage = new ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage();
 		ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig f16 = new ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig( "F-16" );
 		garage.zetInGarage( f16 );
 		garage.upgrade( ".upgrade" );
@@ -186,37 +186,37 @@ public class Main {
 
     //---------------------- code om opgave 4(d) te testen --------------------
     //
-    public static void main(String[] args) {
-        Vliegveld veld = new Vliegveld(5);
-        Vliegtuig dc10 = new Vliegtuig("DC-10");
-        veld.zetBinnen(dc10, 4);
-        Vliegtuig f16 = new Vliegtuig("F-16");
-        veld.zetBinnen(f16, 0);
-        Vliegtuig boeing = new Vliegtuig("Boeing 747");
-        veld.zetBinnen(boeing, 1);
-        veld.print();
-                                                                    // hangar:
-                                                                    // * plek 0: F-16
-                                                                    // * plek 1: Boeing 747
-                                                                    // * plek 2: ---
-                                                                    // * plek 3: ---
-                                                                    // * plek 4: DC-10
-        Vliegtuig concorde = new Vliegtuig("Concorde");
-        int vrij = veld.zetOpEersteVrijePlek(concorde);
-        System.out.println(vrij);                                   // 2
-        veld.print();
-                                                                    // hangar:
-                                                                    // * plek 0: F-16
-                                                                    // * plek 1: Boeing 747
-                                                                    // * plek 2: Concorde
-                                                                    // * plek 3: ---
-                                                                    // * plek 4: DC-10
-
-        for (int i = 10; i <= 16; i++) {
-            System.out.println("/* " + i + " */");
-        }
-
-    }
+//    public static void main(String[] args) {
+//        Vliegveld veld = new Vliegveld(5);
+//        Vliegtuig dc10 = new Vliegtuig("DC-10");
+//        veld.zetBinnen(dc10, 4);
+//        Vliegtuig f16 = new Vliegtuig("F-16");
+//        veld.zetBinnen(f16, 0);
+//        Vliegtuig boeing = new Vliegtuig("Boeing 747");
+//        veld.zetBinnen(boeing, 1);
+//        veld.print();
+//                                                                    // hangar:
+//                                                                    // * plek 0: F-16
+//                                                                    // * plek 1: Boeing 747
+//                                                                    // * plek 2: ---
+//                                                                    // * plek 3: ---
+//                                                                    // * plek 4: DC-10
+//        Vliegtuig concorde = new Vliegtuig("Concorde");
+//        int vrij = veld.zetOpEersteVrijePlek(concorde);
+//        System.out.println(vrij);                                   // 2
+//        veld.print();
+//                                                                    // hangar:
+//                                                                    // * plek 0: F-16
+//                                                                    // * plek 1: Boeing 747
+//                                                                    // * plek 2: Concorde
+//                                                                    // * plek 3: ---
+//                                                                    // * plek 4: DC-10
+//
+//        for (int i = 10; i <= 16; i++) {
+//            System.out.println("/* " + i + " */");
+//        }
+//
+//    }
 
 
 }

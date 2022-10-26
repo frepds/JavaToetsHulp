@@ -16,7 +16,7 @@ public class Garage {
         // upgrade het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig
         Vliegtuig upgrade = new Vliegtuig(upgradeNaam);
 
-        // en update de ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage
+        // en update de ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage
         zetInGarage(upgrade);
     }
 }

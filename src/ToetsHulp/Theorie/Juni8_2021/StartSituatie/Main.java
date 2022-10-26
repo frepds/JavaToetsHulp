@@ -120,13 +120,13 @@ public class Main {
 */
 
 
-//======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage (opgave 3) te testen ========================
+//======================== code om ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage (opgave 3) te testen ========================
 
 /*
 	//---------------------- code om opgave 3 te testen --------------------
 	//
 	public static void main(String[] args) {
-		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage garage = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.Garage();
+		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage garage = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage();
 		ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig f16 = new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig( "F-16" );
 		garage.zetInGarage( f16 );
 		garage.upgrade( ".upgrade" );
