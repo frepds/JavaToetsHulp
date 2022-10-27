@@ -1,32 +1,28 @@
-package ToetsHulp.NieuwePoging.Juni14_2022.Opgave3;
+package ToetsHulp.NieuwePoging.Juni14_2022.Opgave3;// code voor opgave 3
+//
 import java.util.Random;
 
-// code voor opgave 3
-
 public class Geheimschrift {
-	String[] code;
+	/*
 
-	public Geheimschrift(int lengte) {
-		code = new String[lengte];
-		maakGereed();
-	}
 
-	public void maakGereed() {
-		for (int i = 0; i < code.length; i++) {
-			code[i] = randomSymbool();
-		}
-	}
 
-	public void print() {
-		for (String codes : code) {
-			System.out.print(codes);
-		}
-	}
+		Uncomment de twee methodes!!
+
+
+
+
+	 */
+
+
+
+
+	public Geheimschrift(int lengte) { /*...todo...*/ }
+
+	public void maakGereed() { /*...todo...*/  }
 
 	public void verberg(int positie, int stap, String[] tekst) {
-		for (int i = 0; i < tekst.length; i++) {
-			code[positie] += tekst[i * stap];
-		}
+		/*...todo...*/ 
 	}
 
 	// nodig voor randomSymbool()-methode

@@ -1,8 +1,9 @@
 package ToetsHulp.NieuwePoging.Juni14_2022.Opgave4;
 
 // code voor opgave 4
-
+//
 public class Getal {
+
 	public int waarde;
 
 	public Getal(int w) {
@@ -15,13 +16,13 @@ public class Getal {
 
 	// optellen met int
 	public Getal plus(int x) {
-		int waarde = this.waarde + x;
+		waarde = waarde + x;
 		return new Getal(waarde);
 	}
 
 	// optellen met Getal
 	public Getal plus(Getal getal) {
-		int nieuweWaarde = waarde + getal.waarde;
-		return new Getal(nieuweWaarde);
+		getal.waarde = waarde + getal.waarde;
+		return getal;
 	}
 }
