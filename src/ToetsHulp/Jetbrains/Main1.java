@@ -7,16 +7,14 @@ class Main1 {
     static boolean keepRunning = true;
     static Scanner scanner = new Scanner(System.in);
     static int[] array;
-    static int index = 0;
+    static int index = 0, total = 0;
 
     public static void main(String[] args) {
-        int total = 0;
         System.out.println("Enter total amount numbers: ");
         int length = scanner.nextInt();
         array = new int[length];
 
         System.out.println("Enter numbers: ");
-
         while (keepRunning) {
             try {
                 int number = scanner.nextInt();
