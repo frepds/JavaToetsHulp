@@ -82,37 +82,37 @@ public class Main {
 
 	//---------------------- code om opgave 2(a) te testen --------------------
 	//
-//	public static void main(String[] args) {
-//		Spoorlijn een = new Spoorlijn("IC");
-//		een.voegStationToe("Zwolle");
-//		een.voegStationToe("Deventer");
-//
-//		Spoorlijn twee = new Spoorlijn("Sprinter");
-//		twee.voegStationToe("Zwolle");
-//		twee.voegStationToe("Heino");
-//		twee.voegStationToe("Raalte");
-//		twee.voegStationToe("Wierden");
-//		twee.voegStationToe("Deventer");
-//
-//		 // begin- en eindpunt hetzelfde
-//		System.out.println(een.equals(twee));  //>>   true
-//
-//		Spoorlijn drie = new Spoorlijn("IC");
-//		drie.voegStationToe("Deventer");
-//		drie.voegStationToe("Zwolle");
-//
-//		 // eindpunt van ene is beginpunt van de ander, en andersom.
-//		System.out.println(een.equals(drie));  //>>   true
-//
-//		Spoorlijn vier = new Spoorlijn("stoomtrein");
-//		vier.voegStationToe("Zwolle");
-//		vier.voegStationToe("Middle-of-Nowhere");
-//
-//		 // ander begin- of eindpunt
-//		System.out.println(een.equals(vier));  //>>   false
-//	}
+	public static void main(String[] args) {
+		Spoorlijn een = new Spoorlijn("IC");
+		een.voegStationToe("Zwolle");
+		een.voegStationToe("Deventer");
 
+		Spoorlijn twee = new Spoorlijn("Sprinter");
+		twee.voegStationToe("Zwolle");
+		twee.voegStationToe("Heino");
+		twee.voegStationToe("Raalte");
+		twee.voegStationToe("Wierden");
+		twee.voegStationToe("Deventer");
 
+		 // begin- en eindpunt hetzelfde
+		System.out.println(een.equals(twee));  //>>   true
+
+		Spoorlijn drie = new Spoorlijn("IC");
+		drie.voegStationToe("Deventer");
+		drie.voegStationToe("Zwolle");
+
+		 // eindpunt van ene is beginpunt van de ander, en andersom.
+		System.out.println(een.equals(drie));  //>>   true
+
+		Spoorlijn vier = new Spoorlijn("stoomtrein");
+		vier.voegStationToe("Zwolle");
+		vier.voegStationToe("Middle-of-Nowhere");
+
+		 // ander begin- of eindpunt
+		System.out.println(een.equals(vier));  //>>   false
+	}
+
+	
 	//---------------------- code om opgave 2(b) te testen --------------------
 	//
 //	public static void main(String[] args) {
@@ -202,21 +202,21 @@ public class Main {
 
 	//---------------------- code om opgave 4 te testen --------------------
 	//
-	public static void main(String[] args) {
-		Getal vier = new Getal(4);
-		Getal twaalf = vier.plus(8);
-		
-		System.out.println(vier);             //>>   Getal: 4
-		System.out.println(twaalf);           //>>   Getal: 12
-		
-		Getal negenEnNegentig = new Getal(99);
-		Getal drie = new Getal(3);
-		
-		Getal honderdTwee = negenEnNegentig.plus(drie);
-		
-		System.out.println(drie);             //>>   Getal: 3
-		System.out.println(negenEnNegentig);  //>>   Getal: 99
-		System.out.println(honderdTwee);      //>>   Getal: 102
-	}
+//	public static void main(String[] args) {
+//		Getal vier = new Getal(4);
+//		Getal twaalf = vier.plus(8);
+//
+//		System.out.println(vier);             //>>   Getal: 4
+//		System.out.println(twaalf);           //>>   Getal: 12
+//
+//		Getal negenEnNegentig = new Getal(99);
+//		Getal drie = new Getal(3);
+//
+//		Getal honderdTwee = negenEnNegentig.plus(drie);
+//
+//		System.out.println(drie);             //>>   Getal: 3
+//		System.out.println(negenEnNegentig);  //>>   Getal: 99
+//		System.out.println(honderdTwee);      //>>   Getal: 102
+//	}
 
 }

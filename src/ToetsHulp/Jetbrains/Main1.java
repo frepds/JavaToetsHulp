@@ -12,7 +12,7 @@ class Main1 {
     public static void main(String[] args) {
         System.out.println("Enter total amount numbers: ");
         int length = scanner.nextInt();
-        array = new int[length];
+        array = new int[length - 1];
 
         System.out.println("Enter numbers: ");
         while (keepRunning) {
@@ -28,11 +28,11 @@ class Main1 {
             } catch (InputMismatchException e) {
                 System.out.println("Please enter a 'Number'!");
             } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("Array full!");
+                System.out.println("Filled everything in!");
                 keepRunning = false;
             }
         }
 
-        System.out.println("Total : " + total + " \n" + Arrays.toString(array));
+        System.out.println("Total : " + total + "\nArray:" + Arrays.toString(array));
     }
 }

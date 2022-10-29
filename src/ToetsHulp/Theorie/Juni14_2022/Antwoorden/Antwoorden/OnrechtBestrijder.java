@@ -7,15 +7,16 @@ package ToetsHulp.Theorie.Juni14_2022.Antwoorden.Antwoorden;// puntentelling: el
 // - methode afwezig die aanwezig had moeten zijn (of andersom)
 // - methode heeft verkeerde signatuur
 
-class OnrechtBestrijder extends Held implements HeeftAartsvijand
-{
+class OnrechtBestrijder extends Held implements HeeftAartsvijand {
 
-	public OnrechtBestrijder(int x) { super("blabla", 42); }
+    public OnrechtBestrijder(int x) {
+        super("blabla", 42);
+    }
 
-	public OnrechtBestrijder(String s) {
-		this(42);
-		// of: super("...", 42); // maakt niet uit. This kan ook in de andere constructor staan en dan hier een geschikte super(..) of super(..) in beide
-	}
+    public OnrechtBestrijder(String s) {
+        this(42);
+        // of: super("...", 42); // maakt niet uit. This kan ook in de andere constructor staan en dan hier een geschikte super(..) of super(..) in beide
+    }
 
     // methode heeftXRayVision uit abstracte klasse Held
     // moet *niet* overschreven worden. Geeft een int terug. Dus kan volstaan met die uit de super klasse
@@ -24,13 +25,21 @@ class OnrechtBestrijder extends Held implements HeeftAartsvijand
 
     //methode moet overschreven worden omdat ie abstract is in de super klasse
     // (en dit is geen abstracte klasse, dus deze klasse moet 'm implementeren)
-	public String specialeKracht() { return "OnrechtBestrijder --> specialeKracht"; }
+    public String specialeKracht() {
+        return "OnrechtBestrijder --> specialeKracht";
+    }
 
-	public int kwetsbaar(boolean x) { return -1; }
+    public int kwetsbaar(boolean x) {
+        return -1;
+    }
 
-	public int kwetsbaar(int y) { return -1; }
+    public int kwetsbaar(int y) {
+        return -1;
+    }
 
     //methode moet overschreven worden, omdat ie de naam van deze klasse moet returnen!
     // en dat doet de methode in de superklasse niet.
-	public String vermomming() { return "OnrechtBestrijder --> vermomming"; }
+    public String vermomming() {
+        return "OnrechtBestrijder --> vermomming";
+    }
 }

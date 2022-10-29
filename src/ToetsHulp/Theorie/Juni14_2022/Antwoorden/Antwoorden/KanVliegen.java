@@ -6,9 +6,8 @@ package ToetsHulp.Theorie.Juni14_2022.Antwoorden.Antwoorden;// fouten kunnen zij
 // - methode afwezig die aanwezig had moeten zijn (of andersom)
 // - methode heeft verkeerde signatuur
 
-public interface KanVliegen
-{
+public interface KanVliegen {
 
     // interface methode: geen body.
-	double snelheid();
+    double snelheid();
 }

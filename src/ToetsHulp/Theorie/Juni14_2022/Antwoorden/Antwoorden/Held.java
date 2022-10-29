@@ -7,22 +7,28 @@ package ToetsHulp.Theorie.Juni14_2022.Antwoorden.Antwoorden;// puntentelling: el
 // - methode afwezig die aanwezig had moeten zijn (of andersom)
 // - methode heeft verkeerde signatuur
 
-abstract class Held
-{
+abstract class Held {
 
-	public Held(String s, int y) { }
+    public Held(String s, int y) {
+    }
 
     // er is alleen overriding nodig als er een string (met naam v/d klasse + methode) wordt gereturnd.
     // Dus methode heeftXRayVision hoeft nooit overschreven te worden door een subklasse.
-	public boolean heeftXRayVision(int x) { return true; }
+    public boolean heeftXRayVision(int x) {
+        return true;
+    }
 
     // moet wel geimplementeerd worden in *alle* klassen die deze klasse overerven,
     // omdat de eis is: return de naam v/d klasse + methode-naam,
     // en dat kan deze klasse niet regelen (behalve met instanceof).
-	public String vermomming() { return "Held --> vermomming"; }
+    public String vermomming() {
+        return "Held --> vermomming";
+    }
 
-	public String alleOverloading() { return "vermomming + kwetsbaar"; }
+    public String alleOverloading() {
+        return "vermomming + kwetsbaar";
+    }
 
     // abstracte methode, dus GEEN body. Moet wel geimplementeerd worden in de klassen die deze klasse overerven.
-	public abstract String specialeKracht();
+    public abstract String specialeKracht();
 }

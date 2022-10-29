@@ -6,18 +6,27 @@ package ToetsHulp.Theorie.Juni14_2022.Antwoorden.Antwoorden;// fouten kunnen zij
 // - methode afwezig die aanwezig had moeten zijn (of andersom)
 // - methode heeft verkeerde signatuur
 
-public class Superman extends OnrechtBestrijder implements KanVliegen
-{
+public class Superman extends OnrechtBestrijder implements KanVliegen {
 
-	public Superman() { super("42"); }
+    public Superman() {
+        super("42");
+    }
 
-	public Superman(String s) { this(); }
+    public Superman(String s) {
+        this();
+    }
 
-	public double snelheid() { return -1; }
+    public double snelheid() {
+        return -1;
+    }
 
     //methode moet overschreven worden, omdat ie de naam van deze klasse moet returnen!
-	public String specialeKracht() { return "Superman --> specialeKracht"; }
+    public String specialeKracht() {
+        return "Superman --> specialeKracht";
+    }
 
     //methode moet overschreven worden, omdat ie de naam van deze klasse moet returnen!
-	public String vermomming() { return "Superman --> vermomming"; }
+    public String vermomming() {
+        return "Superman --> vermomming";
+    }
 }

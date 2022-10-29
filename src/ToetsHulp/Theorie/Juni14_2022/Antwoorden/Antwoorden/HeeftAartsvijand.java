@@ -7,11 +7,10 @@ package ToetsHulp.Theorie.Juni14_2022.Antwoorden.Antwoorden;// puntentelling: el
 // - methode afwezig die aanwezig had moeten zijn (of andersom)
 // - methode heeft verkeerde signatuur
 
-public interface HeeftAartsvijand
-{
+public interface HeeftAartsvijand {
 
     // interface methode: geen body.
-	int kwetsbaar(boolean x);
+    int kwetsbaar(boolean x);
 
-	int kwetsbaar(int y);
+    int kwetsbaar(int y);
 }
