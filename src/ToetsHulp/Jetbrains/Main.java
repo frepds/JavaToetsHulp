@@ -20,4 +20,7 @@ class Main {
 
         System.out.println(total);
     }
+
+
+    //test
 }
