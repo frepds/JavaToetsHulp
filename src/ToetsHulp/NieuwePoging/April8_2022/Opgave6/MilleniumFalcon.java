@@ -1,6 +1,6 @@
 package ToetsHulp.NieuwePoging.April8_2022.Opgave6;
 
-public class MilleniumFalcon extends Spaceship{
+public class MilleniumFalcon extends Spaceship {
     public MilleniumFalcon() {
         super("Jar Jar Binks", 42);
     }
@@ -17,4 +17,10 @@ public class MilleniumFalcon extends Spaceship{
     public String ietsDoen() {
         return "MilleniumFalcon --> ietsDoen";
     }
+
+    @Override
+    public String uitvoeren() {
+        return "MilleniumFalcon --> uitvoeren";
+    }
+
 }

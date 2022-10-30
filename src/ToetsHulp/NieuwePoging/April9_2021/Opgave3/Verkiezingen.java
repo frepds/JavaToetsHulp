@@ -26,15 +26,14 @@ public class Verkiezingen {
         }
     }
 
-    // vraag (c)
     public int getWinnaar() {
-        int grootsteGetal = 0;
+        int largest = 0;
         for (int i = 0; i < stemmen.length; i++) {
-            if (stemmen[i] > grootsteGetal) {
-                grootsteGetal = i;
+            if (stemmen[i] > largest) {
+                largest = i;
             }
         }
-        return grootsteGetal;
+        return largest;
     }
 
 }

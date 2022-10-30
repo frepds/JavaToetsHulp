@@ -10,29 +10,29 @@ public class Garage {
 
     // fout vb. uit de toets:
     public void upgrade___FOUT___(String upgradeNaam) {
-        // de nieuwe naam voor het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig
+        // de nieuwe naam voor het Vliegtuig
         upgradeNaam = vliegtuig.getNaam() + upgradeNaam;
 
         // upgrade het vliegtuig
         Vliegtuig upgrade = new Vliegtuig(upgradeNaam);
 
-        // en update de ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage
+        // en update de Garage
         zetInGarage(upgrade);
 
     }
 
     // goede code:
     public void upgrade(String upgradeNaam) {
-        // de nieuwe naam voor het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig
+        // de nieuwe naam voor het Vliegtuig
         upgradeNaam = vliegtuig.getNaam() + upgradeNaam;
-        // upgrade het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig. Hier geen new ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig maken, want dat is een ander (nieuw) object.
+        // upgrade het Vliegtuig. Hier geen new Vliegtuig maken, want dat is een ander (nieuw) object.
         // Dan hebben we ineens twee Vliegtuigen, waarvan de nieuwe de geupgrade naam krijgt, terwijl
         // er niks met de oude gedaan wordt (die dan dus onveranderd blijft).
-        // We hoeven alleen de naam van het object dat al in het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig attribuut van ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage was opgeslagen,
+        // We hoeven alleen de naam van het object dat al in het Vliegtuig attribuut van Garage was opgeslagen,
         // aan te passen:
         vliegtuig.setNaam(upgradeNaam);
-        // ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage updaten is niet nodig. We hebben het ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.Theorie.Juni8.StartSituatie.Opgave4.ToetsHulp.NieuwePoging.Juni8.Opgave4.ToetsHulp.NieuwePoging.Juni8_2021.Opgave4.Vliegtuig attribuut van ToetsHulp.Theorie.Juni8.Antwoorden.Opgave3.ToetsHulp.NieuwePoging.Juni8.Opgave3.ToetsHulp.NieuwePoging.Juni8_2021.Opgave3.Garage aangepast, dus het staat al goede
-        // maar het mag wel natuurlijk, ondanks dat het volkomen overbodig is:  zetInGarage(vliegtuig);
+        // Garage updaten is niet nodig. We hebben het Vliegtuig attribuut van Garage aangepast, dus het staat al goede
+        // maar het mag wel natuurlijk, ondanks dat het volkomen overbodig is: zetInGarage(vliegtuig);
     }
 
     // voorbeeld uit de toets om de bug te demonstreren:

@@ -42,10 +42,10 @@ public class Vliegveld {
         return null;
     }
 
-    public int zetOpEersteVrijePlek(Vliegtuig v) {
+    public int zetOpEersteVrijePlek(Vliegtuig vliegtuig) {
         for (int i = 0; i < hangar.length; i++) {
             if (hangar[i] == null) {
-                hangar[i] = v;
+                hangar[i] = vliegtuig;
                 return i;
             }
         }

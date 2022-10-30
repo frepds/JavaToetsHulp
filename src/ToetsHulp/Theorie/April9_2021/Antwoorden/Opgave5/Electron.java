@@ -1,7 +1,8 @@
 package ToetsHulp.Theorie.April9_2021.Antwoorden.Opgave5;
 
-abstract class Electron {
+public abstract class Electron {
     public Electron(String s) {
+
     }
 
     public double frequentie() {
@@ -9,4 +10,5 @@ abstract class Electron {
     }
 
     public abstract String massa();
+
 }

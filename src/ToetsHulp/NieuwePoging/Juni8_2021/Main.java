@@ -40,21 +40,21 @@ public class Main {
 
     //---------------------- code om opgave 1(d) te testen --------------------
     //
-//	public static void main(String[] args) {
-//		Route w1 = new Route( 9 );
-//		Route w2 = new Route( 5 );
-//		Route w3 = new Route( 7 );
-//		Route.printMinMax();
-//
-//		// kortste afstand is 5 km
-//		// langste afstand is 9 km
-//		Route w4 = new Route( 12 );
-//		Route w5 = new Route( 4 );
-//		Route.printMinMax();
-//
-//		// kortste afstand is 4 km
-//		// langste afstand is 12 km
-//	}
+	public static void main(String[] args) {
+		Route w1 = new Route( 9 );
+		Route w2 = new Route( 5 );
+		Route w3 = new Route( 7 );
+		Route.printMinMax();
+
+		// kortste afstand is 5 km
+		// langste afstand is 9 km
+		Route w4 = new Route( 12 );
+		Route w5 = new Route( 4 );
+		Route.printMinMax();
+
+		// kortste afstand is 4 km
+		// langste afstand is 12 km
+	}
 
 
 //======================== code om Rechthoek (opgave 2) te testen ========================
@@ -88,32 +88,32 @@ public class Main {
 
 	//---------------------- code om opgave 2(b) te testen --------------------
 	//
-	public static void main(String[] args) {
-		Figuur figuur = new Rechthoek( 5, 10, 1 );
-		System.out.println( figuur );               //  Rechthoek: 5 x 10 en kleur 1
-		System.out.println( figuur.oppervlakte() ); //  50.0
-		figuur.roteer();
-		System.out.println( figuur );               //  Rechthoek: 10 x 5 en kleur 1
-		
-		Vierkant vierkant = new Vierkant( 4, 13 );
-		
-		HeeftZijkanten zijkanter = vierkant;
-		int n = zijkanter.getAantalZijkanten();
-		System.out.println( n );                    //  4
-		
-		figuur = vierkant;
-		System.out.println( figuur );               //  Vierkant: 4 x 4 en kleur 13
-		System.out.println( figuur.oppervlakte() ); //  16.0
-		figuur.roteer();
-		System.out.println( figuur );               //  Vierkant: 4 x 4 en kleur 13
-		
-		figuur = new Cirkel( 2, 77 );
-		System.out.println( figuur );               //  Cirkel: straal = 2.0, kleur = 77
-		System.out.println( figuur.oppervlakte() ); //  12.566370614359172
-		figuur.roteer();
-		figuur.setKleur( 808 );
-		System.out.println( figuur );               //  Cirkel: straal = 2.0, kleur = 808
-	}
+//	public static void main(String[] args) {
+//		Figuur figuur = new Rechthoek( 5, 10, 1 );
+//		System.out.println( figuur );               //  Rechthoek: 5 x 10 en kleur 1
+//		System.out.println( figuur.oppervlakte() ); //  50.0
+//		figuur.roteer();
+//		System.out.println( figuur );               //  Rechthoek: 10 x 5 en kleur 1
+//
+//		Vierkant vierkant = new Vierkant( 4, 13 );
+//
+//		HeeftZijkanten zijkanter = vierkant;
+//		int n = zijkanter.getAantalZijkanten();
+//		System.out.println( n );                    //  4
+//
+//		figuur = vierkant;
+//		System.out.println( figuur );               //  Vierkant: 4 x 4 en kleur 13
+//		System.out.println( figuur.oppervlakte() ); //  16.0
+//		figuur.roteer();
+//		System.out.println( figuur );               //  Vierkant: 4 x 4 en kleur 13
+//
+//		figuur = new Cirkel( 2, 77 );
+//		System.out.println( figuur );               //  Cirkel: straal = 2.0, kleur = 77
+//		System.out.println( figuur.oppervlakte() ); //  12.566370614359172
+//		figuur.roteer();
+//		figuur.setKleur( 808 );
+//		System.out.println( figuur );               //  Cirkel: straal = 2.0, kleur = 808
+//	}
 
 
 

@@ -6,11 +6,11 @@ public abstract class Held {
     }
 
     public boolean heeftXRayVision(int x) {
-        return false;
+        return true;
     }
 
     public String vermomming() {
-        return "Held --> vermmomming";
+        return "Held --> vermomming";
     }
 
     public String alleOverloading() {

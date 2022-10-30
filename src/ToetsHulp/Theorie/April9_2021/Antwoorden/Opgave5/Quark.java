@@ -1,15 +1,16 @@
 package ToetsHulp.Theorie.April9_2021.Antwoorden.Opgave5;
 
-class Quark extends Electron implements Kryptoniet {
-
+public class Quark extends Electron implements Kryptoniet{
     public Quark(double x) {
-        super("Quark");
+        super("Electron");
     }
 
+    @Override
     public String massa() {
-        return "Quark::massa";
+        return "Quark --> massa";
     }
 
+    @Override
     public double rotatie(double x) {
         return 42;
     }

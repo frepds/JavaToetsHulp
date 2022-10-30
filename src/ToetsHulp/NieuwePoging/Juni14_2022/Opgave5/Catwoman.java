@@ -1,12 +1,8 @@
 package ToetsHulp.NieuwePoging.Juni14_2022.Opgave5;
 
-public class Catwoman extends Held{
+public class Catwoman extends Held {
     public Catwoman() {
         super("Captain Napalm", 42);
-    }
-
-    public String vermomming() {
-        return "Catwoman --> vermomming";
     }
 
     public int vermomming(int x) {
@@ -18,7 +14,13 @@ public class Catwoman extends Held{
     }
 
     @Override
+    public String vermomming() {
+        return "Catwoman --> vermomming";
+    }
+
+
+    @Override
     public String specialeKracht() {
-        return "Catowoman --> specialeKracht";
+        return "Catwoman --> specialeKracht";
     }
 }

@@ -1,6 +1,6 @@
 package ToetsHulp.NieuwePoging.Juni14_2022.Opgave5;
 
-public class Superman extends OnrechtBestrijder implements KanVliegen {
+public class Superman extends Onrechtbestrijder implements KanVliegen{
     public Superman() {
         super(42);
     }
@@ -14,11 +14,13 @@ public class Superman extends OnrechtBestrijder implements KanVliegen {
         return 42;
     }
 
-    public String specialeKracht() {
-        return "Superman --> specialeKracht";
-    }
-
+    @Override
     public String vermomming() {
         return "Superman --> vermomming";
+    }
+
+    @Override
+    public String specialeKracht() {
+        return "Superman --> specialeKracht";
     }
 }

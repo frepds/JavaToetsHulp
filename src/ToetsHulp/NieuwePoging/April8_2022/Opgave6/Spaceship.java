@@ -15,5 +15,8 @@ public abstract class Spaceship {
 
     public abstract String ietsDoen();
 
-}
+    public String alleOverloading() {
+        return "uitvoeren + gedrag";
+    }
 
+}

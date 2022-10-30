@@ -1,5 +1,7 @@
 package ToetsHulp.NieuwePoging.April9_2021.Opgave4;
 
+import java.util.Objects;
+
 //vraag 4
 public class Bankbiljet {
     private int getal;
@@ -15,21 +17,19 @@ public class Bankbiljet {
     }
 
     // gelijk als getal en munteenheid gelijk zijn.
-    public boolean equals(Object obj) {
-        try {
-            Bankbiljet that = (Bankbiljet) obj;
-//
-//            boolean sameGetal = this.getal == that.getal;
-//            boolean sameCurrency = this.munteenheid.equals(that.munteenheid);
-//
-//            return sameGetal && sameCurrency;
-//
-            return this.getal == that.getal &&
-                    this.munteenheid.equals(that.munteenheid);
 
 
-        } catch (ClassCastException e) {
-            return false;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
         }
+        if (o == null || getClass() != o.getClass()) return false;
+        Bankbiljet that = (Bankbiljet) o;
+
+        boolean getal = this.getal == that.getal;
+        boolean munteenheid = this.munteenheid.equals(that.munteenheid);
+        return getal && munteenheid;
     }
+
 }
