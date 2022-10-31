@@ -17,7 +17,6 @@ class Main {
                 total += number;
             }
         }
-
         System.out.println(total);
     }
 
