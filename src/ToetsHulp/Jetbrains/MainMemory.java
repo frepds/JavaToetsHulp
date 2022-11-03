@@ -12,8 +12,15 @@ public class MainMemory {
 //            System.out.println(Integer.toHexString(memories.hashCode()));
 //        }
 
-        for (int i = 6; i <= 22; i++) {
-            System.out.println("-- " + i + "\n");
+//        for (int i = 6; i <= 22; i++) {
+//            System.out.println("-- " + i + "\n");
+//        }
+//        for (int i = 1; i <= 23; i++) {
+//            System.out.println("-- " + i + "\n");
+//        }
+
+        for (int i = 1; i <= 17; i++) {
+            System.out.println("Hoofdstuk " + i + "\n");
         }
 
     }
