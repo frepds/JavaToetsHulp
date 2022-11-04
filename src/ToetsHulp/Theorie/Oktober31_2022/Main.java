@@ -3,7 +3,6 @@ package ToetsHulp.Theorie.Oktober31_2022;
 public class Main {
 
 
-
 //======================== code om Vlag (opgave 1) te testen ========================
 
 /*
@@ -54,8 +53,6 @@ public class Main {
 */
 
 
-
-
 //======================== code om VlaggenWinkel (opgave 1) te testen ========================
 
 /*
@@ -74,8 +71,6 @@ public class Main {
 		System.out.println(mijn_vlag);        //>>   60 + blauw + geel
 	}
 */
-
-
 
 
 //======================== code om Oplader (opgave 2) te testen ========================
@@ -114,8 +109,6 @@ public class Main {
 */
 
 
-
-
 //======================== code om Speler (opgave 3) te testen ========================
 
 /*
@@ -143,8 +136,6 @@ public class Main {
 		Speler.getAantalSpelers(); //>>   5 spelers
 	}
 */
-
-
 
 
 //======================== code om Spel (opgave 5) te testen ========================
