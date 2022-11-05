@@ -1,7 +1,7 @@
 package ToetsHulp.Theorie.Oktober31_2022;
 
 // code voor opgave 2
-//
+
 public class Land {
 
     private String naam;
