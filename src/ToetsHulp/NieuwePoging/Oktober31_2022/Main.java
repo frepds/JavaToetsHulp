@@ -3,7 +3,6 @@ package ToetsHulp.NieuwePoging.Oktober31_2022;
 public class Main {
 
 
-
 //======================== code om Opgave1.Vlag (opgave 1) te testen ========================
 
 	//---------------------- code om opgave 1(a) te testen --------------------
