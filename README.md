@@ -1,3 +1,3 @@
 # JavaToetsHulp
-Hopelijk helpt dit mijn Java-Cijfer.
+Java shit
 
